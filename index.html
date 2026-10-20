@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="GetupTODRL">
+  <meta name="author" content="Chuong Nguyen, Huy Dao, Loc Pham, Truong Nguyen, Quan Nguyen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GetupTODRL</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Related Research
+          </a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title"
+              style="background: linear-gradient(90deg, #46b1f0 0%, #9b59b6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+              Optimized and Robust Martial-Arts-Inspired Standing-Up Maneuvers </br>
+              for Full-Sized Humanoid Robots
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Chuong Nguyen<sup>1,*</sup>,</span>
+              <span class="author-block">Huy Dao<sup>1,*</sup>,</span>
+              <span class="author-block">Loc Pham<sup>1,*</sup>,</span>
+              <span class="author-block">Truong Nguyen<sup>1,2</sup>,</span>
+              <span class="author-block">Quan Nguyen<sup>1,3</sup></span>
+            </div>
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>VinMotion,</span>
+              <span class="author-block"><sup>2</sup>VinUniversity,</span>
+              <span class="author-block"><sup>3</sup>University of Southern California</span>
+              <br>
+              <span class="author-block"><sup>*</sup>Core contributors</span>
+            </div>
+            <div class="affiliation-logos" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2.5rem; margin-top: 1.25rem;">
+              <img src="images/vinmotion_logo_trim.png" alt="VinMotion" style="height: 56px; width: auto;">
+              <img src="images/Vinuni.png" alt="VinUniversity" style="height: 56px; width: auto;">
+              <img src="images/usc_logo_trim.png" alt="University of Southern California" style="height: 44px; width: auto;">
+            </div>
+            <br>
+            <h1 class="title is-4 publication-title">
+              <a href="https://2026.ieee-humanoids.org/" target="_blank">IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2026</a>
+            </h1>
+            <div class="columns is-centered has-text-centered">
+              <div class="publication-links">
+                <!-- <span class="link-block">
+                <a href="https://openreview.net/forum?id=bOVF8Rj33i#discussion"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Open Review</span>
+                </a>
+              </span> -->
+                <!-- <span class="link-block">
+                <a href="https://docs.google.com/presentation/d/1XrH4J4JiR9n73kellCOaZleBYaGdC-xz4VoLP30GDFg/edit?usp=sharing" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span> -->
+
+
+                <span class="link-block">
+                  <a href="#overall-video"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>Twitter</span>
+                </a>
+              </span> -->
+                <span class="link-block">
+                  <a href="https://humanoid-researches.github.io/to-drl"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (coming soon)</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p style="font-size: 1.2rem; line-height: 1.8;">
+              Getting-up control, or fall recovery, is of particular importance for humanoid robots operating in
+              real-world
+              environments. Achieving such behaviors that are simultaneously fast, optimal, and robust has been
+              challenging tasks. In
+              this paper, we propose a hierarchical framework consisting of
+              trajectory optimization (TO) and deep reinforcement learning
+              (DRL), where each stage addresses distinct challenge. In the
+              first stage, TO for full-body dynamics is employed to generate
+              optimal reference motions across consecutive contact phases
+              that recover the robot to a squat posture while respecting
+              hardware limitations and kinematic constraints. These references encode optimal whole-body coordination,
+              phase timing,
+              and squat configurations. In the second stage, DRL is designed
+              to address various challenges (i) fast standing up from diverse
+              postures, (ii) efficient contact transition under hard impact (iii)
+              robust to different initial squat configuration,(iv) robustness
+              to terrain uncertainties and unknown external disturbances.
+              We validate our method on a full-size humanoid VinMotion 2,
+              achieving fast and martial art getting up within only 1 − 2
+              seconds from different key initial lying positions. Extensive
+              hardware experiments also validate the robustness of our
+              method to various type of terrain (e.g. hard, pepple, grass) and
+              external disturbances (e.g 5 lb ball throw). Extensive comparisons with model-based control methods such
+              as Linear Model
+              Predictive Control (LMPC) and Nonlinear Model Predictive
+              Control (NMPC) are also provided to validate the efficienty of
+              our DRL-based method.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Architecture</h2>
+          <div class="content has-text-justified">
+            <img src="images/methodNew.png" alt="" style="width: 100%;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Simulation Results</h2>
+          <div class="columns is-variable is-6 is-multiline">
+            <div class="column is-full">
+              <!-- <h3 class="subtitle is-5">Face Up — Self Standing Up</h3> -->
+              <h3 class="subtitle is-5">Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial supine
+                pose</h3>
+              <video id="sim_face_up" muted autoplay controls loop playsinline preload="metadata"
+                style="width:100%; border-radius:10px;">
+                <source src="./videos/faceup_comparison_fix.mp4" type="video/mp4">
+                Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial supine pose.
+              </video>
+            </div>
+            <div class="column is-full">
+              <!-- <h3 class="subtitle is-5">Face Down — Self Standing Up</h3> -->
+              <h3 class="subtitle is-5">Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial prone
+                pose</h3>
+              <video id="sim_face_down" muted autoplay controls loop playsinline preload="metadata"
+                style="width:100%; border-radius:10px;">
+                <source src="./videos/facedown_comparison_fix.mp4" type="video/mp4">
+                Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial prone pose.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Robot Experiments Section -->
+  <style>
+    .video-title {
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 1.4rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+  </style>
+
+  <section class="section">
+    <div class="container" style="max-width: 1400px; padding: 0 2rem;">
+      <h2 class="title is-2 has-text-centered">Robustness to unknown terrain</h2>
+
+      <h3 class="title is-3" style="margin-top: 4rem;">Prone Tasks</h3>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="video-title">Soft foam</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_grass_fixcam_facedown.mp4" type="video/mp4">
+          </video>
+          <div class="caption">(Stiffness, Damping) = (300, 20)</div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Icy terrain</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_ice_fixcam_facedown.mp4" type="video/mp4">
+          </video>
+          <div class="caption">Friction coefficient = 0.02</div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Sloped terrain</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_slope_ball_fixcam_facedown_2.mp4" type="video/mp4">
+          </video>
+          <div class="caption">Angle = 20°</div>
+        </div>
+      </div>
+
+      <h3 class="title is-3" style="margin-top: 4rem;">Supine Tasks</h3>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="video-title">Soft foam</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_grass_fixcam_faceup.mp4" type="video/mp4">
+          </video>
+          <div class="caption">(Stiffness, Damping) = (300, 20)</div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Icy terrain</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_ice_fixcam_faceup.mp4" type="video/mp4">
+          </video>
+          <div class="caption">Friction coefficient = 0.02</div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Random blocks</div>
+          <video muted autoplay controls loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRL_hardterrain_fixcam_faceup.mp4" type="video/mp4">
+          </video>
+          <div class="caption">L: 0.1–0.3m, W: 0.01–0.05m, H: 0.005–0.02m</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2 has-text-centered">Ultra-fast Standing Up</h2>
+
+      <p style="text-align: center; color: #555; margin-bottom: 3rem; font-size: 1.25rem;">
+        Starting from a supine pose, the robot reaches its recovery pose before a ball dropped from 1.8 m hits the
+        ground (~0.6 s),
+        then takes ~0.5 s to reach walking height and ~0.5 s to fully balance.
+      </p>
+
+      <div class="columns">
+        <div class="column is-half">
+          <video id="video-normal" muted autoplay controls loop playsinline preload="metadata"
+            style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRLfastpose_1x.mp4" type="video/mp4">
+          </video>
+          <div class="caption" style="text-align:center; margin-top: 0.5rem;">Normal speed (1×)</div>
+        </div>
+        <div class="column is-half">
+          <video id="video-slowmo" muted autoplay controls loop playsinline preload="metadata"
+            style="width: 100%; border-radius: 10px;">
+            <source src="./videos/FFRLfastpose_05x.mp4" type="video/mp4">
+          </video>
+          <div class="caption" style="text-align:center; margin-top: 0.5rem;">Slow motion (0.5×)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2 has-text-centered">Hardware Experiments</h2>
+      <p style="text-align: center; color: #555; margin-bottom: 3rem; font-size: 1.25rem;">
+        Hardware experiments demonstrating the physical robot setup and real-world performance.
+      </p>
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <video
+            id="video-hardware"
+            muted
+            autoplay
+            controls
+            loop
+            playsinline
+            preload="metadata"
+            style="width: 100%; border-radius: 10px;"
+          >
+            <source src="./videos/Hardware.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="section">
+    <div class="container" style="max-width: 1400px; padding: 0 2rem;">
+      <h2 class="title is-2 has-text-centered">Hardware Experiments</h2>
+
+      <h3 class="title is-3" style="margin-top: 4rem;">Prone Tasks</h3>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="video-title">Hard ground</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/facedown_hard_new.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">(300, 20)</div> -->
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Artificial turf</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/facedown_softTerrain_new.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">μ = 0.02</div> -->
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Hard ground + External disturbance</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/facedown_ball_new.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">20°</div> -->
+        </div>
+      </div>
+
+      <h3 class="title is-3" style="margin-top: 4rem;">Supine Tasks</h3>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="video-title">Artificial turf + pebbles</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/faceup_MixedTerrain_new.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">(300, 20)</div> -->
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Unanchored artificial turf + pebbles</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/faceup_grassball_new.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">μ = 0.02</div> -->
+        </div>
+
+        <div class="column is-one-third">
+          <div class="video-title">Hard ground</div>
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/faceup_hardterrain.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="caption">0.1–0.3 / 0.01–0.05 / 0.005–0.02 m</div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="overall teaser"></section>
+  <div id="overall-video" class="columns is-centered has-text-centered">
+    <div class="container">
+      <div class="column is-full-width">
+        <h2 class="title is-3">
+          Overall </h2>
+        <video id="teaser_video" width=99% muted autoplay controls loop style="border-radius:10px; ">
+          <source src="./videos/IROS_26_Fall_Recovery_new.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <br>
+      <h2 class="title is-3">BibTeX</h2>
+      <pre><code>@inproceedings{nguyen2026optimized,
+    title={Optimized and Robust Martial-Arts-Inspired Standing-Up Maneuvers for Full-Sized Humanoid Robots},
+    author={Nguyen, Chuong and Dao, Huy and Pham, Loc and Nguyen, Truong and Nguyen, Quan},
+    booktitle={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},
+    year={2026}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- <section>
+    <div class="container">
+    <br>
+    <h2 class="title is-3">Related Works</h2>
+    <article class="columns">
+      <div class="column is-3">
+        <picture class="image">
+          <img src="images/3d-vitac.png">
+        </picture>
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            <b>3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</b><br>
+              <a href="https://binghao-huang.github.io/">Binghao Huang</a><sup>1</sup>,
+              <a href="https://wangyixuan12.github.io/">Yixuan Wang</a><sup>1</sup>,
+              <a href="">Xinyi Yang</a><sup>2</sup>,
+              <a href="https://yyueluo.com/">Yiyue Luo</a><sup>3</sup>,
+              <a href="https://yunzhuli.github.io/">Yunzhu Li</a><sup>1</sup>
+
+            
+            <br>
+            <em>Conference on Robot Learning (<b>CoRL</b>), 2024</em><br>
+            <a href="https://binghao-huang.github.io/3D-ViTac/" target="_blank">[<u>Webpage</u>]</a>
+            <a href="https://openreview.net/forum?id=bk28WlkqZn" target="_blank">[<u>Paper</u>]</a>
+            <a href="https://docs.google.com/document/d/1XGyn-iV_wzRmcMIsyS3kwcrjxbnvblZAyigwbzDsX-E/edit?tab=t.0#heading=h.ny8zu0pq9mxy" target="_blank">[<u>Hardware Tutorial</u>]</a>
+            <a href="https://www.youtube.com/watch?v=ZN3mHMNZC7Q" target="_blank">[<u>Video</u>]</a>
+          </p>
+        </div>
+      </div>
+    </article>
+    <article class="columns">
+      <div class="column is-3">
+        <video id="teaser_video" width=99% muted autoplay loop style="border-radius:10px; ">
+          <source src="videos/touchinthewild.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            <b>Touch in the Wild:
+              Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</b><br>
+              <a href="">Xinyue Zhu<sup>*</sup><sup>,</sup><sup>1</sup></a>,
+              <a href="https://binghao-huang.github.io/">Binghao Huang<sup>*</sup><sup>,</sup><sup>1</sup></a>,
+              <a href="https://yunzhuli.github.io/">Yunzhu Li</sup><sup>1</sup></a> </br>
+              
+              <em>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2025</em><br>
+              <font color="firebrick"><b>Best Demo Award</b></font> at <b>RSS 2025</b> Workshop on Robot Hardware-Aware Intelligence <a href="https://rss-hardware-intelligence.github.io/" target="_blank"><small>[Link]</small></a><br>
+              <a href="https://binghao-huang.github.io/touch_in_the_wild/" target="_blank">[<u>Webpage</u>]</a>
+              <a href="https://openreview.net/forum?id=ZGqqPMQDEk" target="_blank">[<u>Paper</u>]</a> </br>
+            </p>
+          </p>
+        </div>
+      </div>
+    </article>
+    </div>
+  </section> -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Here</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
